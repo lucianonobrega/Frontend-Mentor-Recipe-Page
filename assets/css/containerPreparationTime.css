@@ -1,0 +1,30 @@
+.preparationTime {
+    background-color: var(--Rose50);
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+    border-radius: 1.6rem;
+    padding: 3rem;
+}
+
+.preparationTime h2 {
+    color: var(--Rose800);
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.preparationTime ul {
+    color: var(--Stone600);
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 2.5rem;
+}
+
+.preparationTime ul li {
+    padding-left: 2rem;
+}
+
+.preparationTime ul li::marker {
+    color: var(--Rose800);
+}

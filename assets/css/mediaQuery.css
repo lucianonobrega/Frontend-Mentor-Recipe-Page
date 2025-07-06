@@ -1,0 +1,29 @@
+@media screen and (max-width:430px) {
+    .containerPai {
+        margin: 0;
+        padding: 0 0 5rem 0;
+    }
+
+    .containerPai img {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .simpleOmeletteRecipe,
+    .preparationTime,
+    .ingredients,
+    .instructions,
+    .nutrition {
+        width: 90%;
+    }
+
+    .simpleOmeletteRecipe h1 {
+        font-size: 3rem;
+    }
+
+    .ingredients,
+    .instructions,
+    .nutrition {
+        padding: 0 2rem;
+    }
+}
